@@ -37,12 +37,10 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [Understand Go pointers in less than 800 words or your money back](https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back)
 - [Don't fear the pointer](https://bitfieldconsulting.com/golang/pointers)
 - [Channel Axioms](https://dave.cheney.net/2014/03/19/channel-axioms)
-- [Golang channels tutorial](https://guzalexander.com/2013/12/06/golang-channels-tutorial.html)
 - [Common Gotchas in Go](https://divan.dev/posts/avoid_gotchas/)
 - [100 Go Mistakes and How to Avoid Them](https://100go.co)
 - [Slices from the ground up](https://dave.cheney.net/2018/07/12/slices-from-the-ground-up)
 - [6 Tips for Using Strings in Go](https://www.calhoun.io/6-tips-for-using-strings-in-go/)
-- [Go Defer Simplified with Practical Visuals](https://blog.learngoprogramming.com/golang-defer-simplified-77d3b2b817ff)
 - [How to Use Go Interfaces](https://blog.chewxy.com/2018/03/18/golang-interfaces/)
 
 ### Worth reading, again and again
@@ -63,7 +61,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [Idiomatic Go](https://dmitri.shuralyov.com/idiomatic-go)
 - [Error handling and Go](https://blog.golang.org/error-handling-and-go)
 - [Working with Errors in Go 1.13](https://blog.golang.org/go1.13-errors)
-- [Simple Go project layout with modules](https://eli.thegreenplace.net/2019/simple-go-project-layout-with-modules/)
 - [Structuring Tests in Go](https://medium.com/@benbjohnson/structuring-tests-in-go-46ddee7a25c)
 - [Standard Package Layout](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1)
 - [Packages as layers, not groups](https://www.gobeyond.dev/packages-as-layers/)
@@ -75,7 +72,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 ### Web
 
 - [Creating My First Web Application with Go](https://www.rosie.dev/post/building-a-web-app-with-go/)
-- [Making a RESTful JSON API in Go](https://thenewstack.io/make-a-restful-json-api-go/)
 - [Serving static files and web apps in Go](https://eli.thegreenplace.net/2022/serving-static-files-and-web-apps-in-go/)
 - [An Intro To Templates in Go](https://www.calhoun.io/an-intro-to-templates-in-go-part-1-of-3/)
 - [JSON APIs Are Just Web Applications](https://www.calhoun.io/apis-are-just-web-applications/)
@@ -90,7 +86,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 
 ### Go Modules
 
-- [Introduction to Go modules](https://roberto.selbach.ca/intro-to-go-modules/)
 - [Using Go Modules](https://blog.golang.org/using-go-modules)
 - [Modules Part 01: Why And What](https://www.ardanlabs.com/blog/2019/10/modules-01-why-and-what.html)
 
@@ -99,7 +94,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 ### Code Design
 
 - [What We Got Right, What We Got Wrong](https://commandcenter.blogspot.com/2024/01/what-we-got-right-what-we-got-wrong.html)
-- [Go best practices, six years in](https://peter.bourgon.org/go-best-practices-2016/)
 - [Aspects of a good Go library](https://medium.com/@cep21/aspects-of-a-good-go-library-7082beabb403)
 - [Solid Go Design](https://dave.cheney.net/2016/08/20/solid-go-design)
 - [Go for Industrial Programming](https://peter.bourgon.org/go-for-industrial-programming/)
@@ -118,12 +112,10 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 
 - [Concurrency Patterns](https://medium.com/@thejasbabu/concurrency-patterns-golang-5c5e1bcd0833)
 - [Stopping goroutines](https://medium.com/@matryer/stopping-goroutines-golang-1bf28799c1cb)
-- [Make Ctrl+C cancel the context.Context](https://medium.com/@matryer/make-ctrl-c-cancel-the-context-context-bd006a8ad6ff)
 - [How to correctly use context.Context in Go 1.7](https://medium.com/@cep21/how-to-correctly-use-context-context-in-go-1-7-8f2c0fafdf39#.bdz5qnna7)
 - [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/)
 - [Go Concurrency Patterns: Pipelines and cancellation](https://blog.golang.org/pipelines)
 - [Tutorial: Synchronizing State with Mutexes in Go](https://kylewbanks.com/blog/tutorial-synchronizing-state-with-mutexes-golang)
-- [Context and Cancellation of goroutines](https://dahernan.github.io/2015/02/04/context-and-cancellation-of-goroutines/)
 - [Dancing with Go's Mutexes](https://hackernoon.com/dancing-with-go-s-mutexes-92407ae927bf)
 - [GoRoutines, Channels, and Proper Exits](https://rabarar.github.io/blog/2015/02/17/goroutines-channels/)
 - [How to Block Forever in Go](https://blog.sgmansfield.com/2016/06/how-to-block-forever-in-go/)
@@ -133,35 +125,28 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [Does the race detector catch all data races?](https://medium.com/@val_deleplace/does-the-race-detector-catch-all-data-races-1afed51d57fb)
 - [Interesting ways of using Go channels](http://nomad.uk.net/articles/interesting-ways-of-using-go-channels.html)
 - [Code Review Checklist: Go concurrency](https://github.com/code-review-checklists/go-concurrency)
-- [The Pros of Conds](https://lukechampine.com/cond.html)
 - [Go concurrency guide](https://github.com/luk4z7/go-concurrency-guide)
 
 ### Testing
 
 - [An Introduction to Testing in Go](https://tutorialedge.net/golang/intro-testing-in-go/)
 - [5 simple tips and tricks for writing unit tests in #golang](https://medium.com/@matryer/5-simple-tips-and-tricks-for-writing-unit-tests-in-golang-619653f90742)
-- [5 Advanced Testing Techniques in Go](https://segment.com/blog/5-advanced-testing-techniques-in-go/)
 - [Interfaces and Composition for Effective Unit Testing in Golang](https://nathanleclaire.com/blog/2015/10/10/interfaces-and-composition-for-effective-unit-testing-in-golang/)
 - [Go Testing Technique: Testing JSON HTTP Requests](https://medium.com/@xoen/go-testing-technique-testing-json-http-requests-76d9ce0e11f#.95p1r8n16)
 - [Testing Your (HTTP) Handlers in Go](https://blog.questionable.services/article/testing-http-handlers-go/)
 - [Learn Go with tests](https://github.com/quii/learn-go-with-tests)
 - [Lesser-Known Features of Go Test](https://splice.com/blog/lesser-known-features-go-test/)
-- [When Writing Unit Tests, Don’t Use Mocks](https://sendgrid.com/blog/when-writing-unit-tests-dont-use-mocks/)
 - [Property-based testing in Go](https://earthly.dev/blog/property-based-testing/)
 - [Functional table-driven tests in Go](https://arslan.io/2022/12/04/functional-table-driven-tests-in-go/)
 
 ### Web
 
-- [Go for Cloud](https://rakyll.org/go-cloud/)
 - [Exposing Go on the Internet](https://blog.gopheracademy.com/advent-2016/exposing-go-on-the-internet/)
 - [The complete guide to Go net/http timeouts](https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/)
 - [HTTP(S) Proxy in Golang in less than 100 lines of code](https://medium.com/@mlowicki/http-s-proxy-in-golang-in-less-than-100-lines-of-code-6a51c2f2c38c)
 - [Write a Kubernetes-ready service from zero step-by-step](https://blog.gopheracademy.com/advent-2017/kubernetes-ready-service/)
-- [A brief intro of TCP keep-alive in Go’s HTTP implementation](https://nanxiao.me/en/a-brief-intro-of-tcp-keep-alive-in-gos-http-implementation/)
 - [Build a Web Crawler in Go](https://jackcanty.com/build-a-web-crawler-in-go.html)
 - [Your pprof is showing: IPv4 scans reveal exposed net/http/pprof endpoints:](https://mmcloughlin.com/posts/your-pprof-is-showing)
-- [HTTP Request Contexts & Go](https://blog.questionable.services/article/map-string-interface/)
-- [Using Object-Oriented Web Servers in Go](https://blog.codeship.com/using-object-oriented-web-servers-go/)
 - [Don't use Go's default HTTP client (in production)](https://medium.com/@nate510/don-t-use-go-s-default-http-client-4804cb19f779)
 - [Writing an API Client in Go](https://blog.gopheracademy.com/advent-2016/http-client/)
 - [Seeking around in an HTTP object](https://blog.gopheracademy.com/advent-2017/seekable-http/)
@@ -172,7 +157,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [Life of an HTTP request in a Go server](https://eli.thegreenplace.net/2021/life-of-an-http-request-in-a-go-server/)
 - [Gotchas in the Go Network Packages Defaults](https://martin.baillie.id/wrote/gotchas-in-the-go-network-packages-defaults/)
 - [Graceful shutdown of a TCP server in Go](https://eli.thegreenplace.net/2020/graceful-shutdown-of-a-tcp-server-in-go/)
-- [How to handle signals with Go to graceful shutdown HTTP server](https://rafallorenz.com/go/handle-signals-to-graceful-shutdown-http-server/)
 
 ### JSON
 
@@ -208,7 +192,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 
 ### Language
 
-- [Golang: pass by pointer vs pass by value](https://goinbigdata.com/golang-pass-by-pointer-vs-pass-by-value/)
 - [There is no pass-by-reference in Go](https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go)
 - [Variadic functions in Go](https://medium.com/golangspec/variadic-functions-in-go-13c33182b851)
 - [Function Types in Go (golang)](https://jordanorelli.com/post/42369331748/function-types-in-go-golang)
@@ -231,7 +214,6 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 
 - [Always Be Closing](https://medium.com/square-corner-blog/always-be-closing-3d5fda0e00da)
 - [Don't defer Close() on writable files](https://joeshaw.org/dont-defer-close-on-writable-files/)
-- [How to Use go:generate](https://blog.carlmjohnson.net/post/2016-11-27-how-to-use-go-generate/)
 - [Writing worker queues, in Go](https://nesv.github.io/golang/2014/02/25/worker-queues-in-go.html)
 - [Job Queues in Go - OpsDash](https://www.opsdash.com/blog/job-queues-in-go.html)
 - [Vanity Go Import Paths](https://blog.bramp.net/post/2017/10/02/vanity-go-import-paths/)
@@ -255,16 +237,13 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [unsafe.Pointer and system calls](https://blog.gopheracademy.com/advent-2017/unsafe-pointer-and-system-calls/)
 - [Type-Unsafe Pointers](https://go101.org/article/unsafe.html)
 - [Looking at your program’s structure in Go 1.7](https://pauladamsmith.com/blog/2016/08/go-1.7-ssa.html)
-- [Managing Syscall Overhead with crypto/rand](https://blog.sgmansfield.com/2016/06/managing-syscall-overhead-with-crypto-rand/)
 - [Monkey Patching in Go](https://bou.ke/blog/monkey-patching-in-go/)
 - [Interface method calls with the Go register ABI](https://eli.thegreenplace.net/2022/interface-method-calls-with-the-go-register-abi/)
-- [Go Fact: Zero-sized Field at the Rear of a Struct Has Non-zero Size](https://i.hsfzxjy.site/zst-at-the-rear-of-go-struct/)
 - [Modifying Private Variables of a Struct in Go Using unsafe and reflect](https://medium.com/@darshan.na185/modifying-private-variables-of-a-struct-in-go-using-unsafe-and-reflect-5447b3019a80)
 
 ### Performance
 
 - [Common Go Patterns for Performance](https://goperf.dev/01-common-patterns/)
-- [Allocation Efficiency in High-Performance Go Services](https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/)
 - [Handling 1 Million Requests per Minute with Go](http://marcio.io/2015/07/handling-1-million-requests-per-minute-with-golang/)
 - [Go code refactoring : the 23x performance hunt](https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7)
 - [A Million WebSockets and Go](https://medium.freecodecamp.org/million-websockets-and-go-cc58418460bb)
@@ -272,13 +251,11 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [High Performance Go Workshop](https://dave.cheney.net/high-performance-go-workshop/gophercon-2019.html)
 - [Reducing Memory Allocations in Golang](https://chris124567.github.io/2021-06-21-go-performance/)
 - [Analyzing Go Heap Escapes](https://landontclipp.github.io/blog/2023/07/15/analyzing-go-heap-escapes/)
-- [Make Go application container resource limits aware](https://kupczynski.info/posts/go-container-aware/)
 
 ### Garbage Collection
 
 - [A Guide to the Go Garbage Collector](https://go.dev/doc/gc-guide)
 - [Getting to Go: The Journey of Go's Garbage Collector](https://go.dev/blog/ismmkeynote)
-- [Avoiding high GC overhead with large heaps](https://blog.gopheracademy.com/advent-2018/avoid-gc-overhead-large-heaps/)
 - [How to Optimize Garbage Collection in Go](https://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/)
 - [Garbage Collection in Go](https://www.ardanlabs.com/blog/2018/12/garbage-collection-in-go-part1-semantics.html)
 
@@ -289,5 +266,4 @@ See [Go Books](https://github.com/dariubs/GoBooks) for a list of books, both fre
 - [Golang lock-free values with atomic.Value](https://texlution.com/post/golang-lock-free-values-with-atomic-value/)
 - [Go Concurrency Patterns: Context](https://blog.golang.org/context)
 - [Go Concurrency Patterns: Timing out, moving on](https://blog.golang.org/go-concurrency-patterns-timing-out-and)
-- [Concurrency, Goroutines and GOMAXPROCS](https://www.ardanlabs.com/blog/2014/01/concurrency-goroutines-and-gomaxprocs.html)
 - [Data Race Patterns in Go](https://www.uber.com/blog/data-race-patterns-in-go/)
